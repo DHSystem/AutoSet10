@@ -45,3 +45,37 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+/solution
+/server/sendmail
+/server/temp
+/server/autoset
+/server/bin
+/server/conf
+/server/error
+/server/icons
+/server/logs
+/server/modules
+/unins000.exe
+/vc_redist.x64.exe
+/AutoSet.exe
+/AutoSet.ini
+/AutoSet.url
+/AutoSetBackup.exe
+/AutoSetCafe.url
+/AutoSetFacebook.url
+/unins000.dat
+/server/MySQL5/bin
+/server/MySQL5/share
+/server/MySQL5/COPYING
+/server/MySQL5/COPYING.LESSER
+/server/MySQL5/COPYING.thirdparty
+/server/MySQL5/CREDITS
+/server/MySQL5/EXCEPTIONS-CLIENT
+/server/MySQL5/my.ini
+/server/MySQL5/my-huge.ini
+/server/MySQL5/my-innodb-heavy-4G.ini
+/server/MySQL5/my-large.ini
+/server/MySQL5/my-medium.ini
+/server/MySQL5/my-small.ini
+/server/MySQL5/README
+/server/MySQL5/wsrep.ini

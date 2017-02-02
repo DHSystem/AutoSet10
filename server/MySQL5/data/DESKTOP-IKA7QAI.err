@@ -1,0 +1,47 @@
+2017-02-02 16:12:28 7780 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-02-02 16:12:28 7780 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-02-02 16:12:28 7780 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-02-02 16:12:28 7780 [Note] InnoDB: Memory barrier is not used
+2017-02-02 16:12:28 7780 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-02-02 16:12:28 7780 [Note] InnoDB: Not using CPU crc32 instructions
+2017-02-02 16:12:28 7780 [Note] InnoDB: Initializing buffer pool, size = 8.0M
+2017-02-02 16:12:28 7780 [Note] InnoDB: Completed initialization of buffer pool
+2017-02-02 16:12:28 7780 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-02-02 16:12:29 1e64  InnoDB: Operating system error number 2 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+2017-02-02 16:12:29 7780 [ERROR] InnoDB: Could not find a valid tablespace file for 'mysql/gtid_slave_pos'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-02-02 16:12:29 7780 [ERROR] InnoDB: Tablespace open failed for '"mysql"."gtid_slave_pos"', ignored.
+2017-02-02 16:12:29 7780 [Warning] InnoDB: Resizing redo log from 2*3072 to 2*640 pages, LSN=1616799
+2017-02-02 16:12:29 7780 [Warning] InnoDB: Starting to delete and rewrite log files.
+2017-02-02 16:12:29 7780 [Note] InnoDB: Setting log file .\ib_logfile101 size to 10 MB
+2017-02-02 16:12:29 7780 [Note] InnoDB: Setting log file .\ib_logfile1 size to 10 MB
+2017-02-02 16:12:29 7780 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+2017-02-02 16:12:29 7780 [Warning] InnoDB: New log files created, LSN=1616908
+2017-02-02 16:12:29 7780 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-02-02 16:12:29 7780 [Note] InnoDB: Waiting for purge to start
+2017-02-02 16:12:29 7780 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.26-74.0 started; log sequence number 1616799
+2017-02-02 16:12:29 7732 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-02-02 16:12:29 7780 [Note] Plugin 'FEEDBACK' is disabled.
+2017-02-02 16:12:29 7780 [Note] Server socket created on IP: '::'.
+2017-02-02 16:12:29 7780 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2017-02-02 16:12:29 7780 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2017-02-02 16:12:29 7780 [ERROR] mysqld.exe: Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2017-02-02 16:12:29 6820 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1146: Table 'mysql.gtid_slave_pos' doesn't exist
+2017-02-02 16:12:29 7780 [Note] C:\AutoSet10\Server\MySQL5\bin\mysqld.exe: ready for connections.
+Version: '10.1.9-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-02-02 16:12:41 4564 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2017-02-02 16:12:42 4564 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2017-02-02 16:12:44 4564 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2017-02-02 16:12:45 4564 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2017-02-02 16:12:45 4564 [ERROR] Incorrect definition of table mysql.proc: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVA
+2017-02-02 16:12:47 4564 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2017-02-02 16:12:49 1000 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2017-02-02 16:12:49 1000 [ERROR] Incorrect definition of table mysql.event: expected column 'sql_mode' at position 14 to have type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','IGNORE_BAD_TABLE_OPTIONS','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_ALL_TABLES','NO_ZERO_IN_DATE','NO_ZERO_DATE','INVALID_DATES','ERROR_FOR_DIVISION_BY_ZERO','TRADITIONAL','NO_AUTO_CREATE_USER','HIGH_NOT_PRECEDENCE','NO_ENGINE_SUBSTITUTION','PAD_CHAR_TO_FULL_LENGTH'), found type set('REAL_AS_FLOAT','PIPES_AS_CONCAT','ANSI_QUOTES','IGNORE_SPACE','NOT_USED','ONLY_FULL_GROUP_BY','NO_UNSIGNED_SUBTRACTION','NO_DIR_IN_CREATE','POSTGRESQL','ORACLE','MSSQL','DB2','MAXDB','NO_KEY_OPTIONS','NO_TABLE_OPTIONS','NO_FIELD_OPTIONS','MYSQL323','MYSQL40','ANSI','NO_AUTO_VALUE_ON_ZERO','NO_BACKSLASH_ESCAPES','STRICT_TRANS_TABLES','STRICT_A
+2017-02-02 16:12:50 1000 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2017-02-02 16:12:50 4564 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2017-02-02 16:12:51 4564 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2017-02-02 16:12:53 4564 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2017-02-02 16:12:53 4564 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2017-02-02 16:12:53 1000 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
+2017-02-02 16:12:54 4564 [ERROR] Missing system table mysql.roles_mapping; please run mysql_upgrade to create it
